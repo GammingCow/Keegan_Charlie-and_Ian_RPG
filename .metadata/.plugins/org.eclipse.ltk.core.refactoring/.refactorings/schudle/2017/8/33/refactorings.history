@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;schudle/src/client_secret_135282187603-vbms6noknp2l75m6i4j159neo821s2fj.apps.googleusercontent.com.json&apos; to &apos;client_secret.json&apos;" description="Rename resource &apos;client_secret_135282187603-vbms6noknp2l75m6i4j159neo821s2fj.apps.googleusercontent.com.json&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/client_secret_135282187603-vbms6noknp2l75m6i4j159neo821s2fj.apps.googleusercontent.com.json" name="client_secret.json" stamp="1503172027446" updateReferences="true"/>
+</session>

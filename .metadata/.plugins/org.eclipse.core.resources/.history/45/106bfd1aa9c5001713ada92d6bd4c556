@@ -1,0 +1,39 @@
+package keeganStuff;
+
+public class Keegan_RPG {
+
+	public static void main (String[]args) {
+		
+		
+		
+	}
+	public static boolean fight (int playerPower, int playerStamina, int enemyPower, int enemyStamina) {
+		
+		if (playerPower > enemyPower) {
+			
+			if (playerStamina >= enemyStamina) {
+				
+				return true;
+				
+			} else {
+				
+				return false;
+				
+			}
+			
+		} else {
+			
+			if (enemyStamina >= playerStamina) {
+				
+				return false;
+				
+			} else {
+				
+				return true;
+				
+			}
+			
+		}
+			
+	}
+}

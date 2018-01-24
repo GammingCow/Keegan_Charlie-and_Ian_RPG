@@ -1,0 +1,39 @@
+package keeganStuff;
+
+public class Keegan_RPG {
+
+	public static void main (String[]args) {
+		
+		
+		
+	}
+	public static boolean fight (int playerPower, int playerStamina, int enemyPower, int enemyStamina) {
+		
+		if (playerPower > enemyPower) {
+			
+			if (playerStamina >= enemyStamina) {
+				
+				System.out.println("You have slain your foe!");
+				
+			} else {
+				
+				System.out.println("You have been slain by your foe, even though you were more powerful.");;
+				
+			}
+			
+		} else {
+			
+			if (enemyStamina >= playerStamina) {
+				
+				System.out.println("You had a very small chance, and has been slain by your foe.");
+				
+			} else {
+				
+				System.out.println("You had a very small chance, and have slain your foe because of their lack of energy!");
+				
+			}
+			
+		}
+			
+	}
+}

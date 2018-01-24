@@ -1,0 +1,23 @@
+package keeganStuff;
+
+public class Keegan_RPG {
+
+	public static void main (String[]args) {
+		
+		
+		
+	}
+	public static boolean fight (int playerPower, int enemyPower) {
+		
+		if (playerPower > enemyPower) {
+			
+			return true;
+						
+		} else {
+			
+			return false;
+			
+		}
+		
+	}
+}

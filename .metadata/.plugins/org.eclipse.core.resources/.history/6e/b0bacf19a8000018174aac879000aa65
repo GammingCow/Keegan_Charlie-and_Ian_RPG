@@ -1,0 +1,84 @@
+package keeganStuff;
+
+public class Monster {
+
+	int Power = 0;
+	int Stamina = 0;
+	int Size = 0;
+	int Stealth = 0;
+	int Health = 0;
+
+	public Monster (int enemyPower, int enemyStamina, int enemySize, int enemyStealth, int enemyHealth) {
+		
+		Power = enemyPower;
+		Stamina = enemyStamina;
+		Size = enemySize;
+		Stealth = enemyStealth;
+		Health = enemyHealth;
+	
+		/* Monster ideas:
+		 * Boss Slime = Power 10, Stamina 10, Size 15, Stealth 5, and Health 50 -- Is A Boss --
+		 * Lesser shifter = Power 20, Stamina 60, Size 5, Stealth 1000, and Health 100 -- Can shape shift to some monsters, NPCs, and animals --
+		 * Greater shifter = Power 50, Stamina 100, Size 5, Stealth 1000, and Health 200 -- Can shape shift to most none-boss monsters, NPCs, and animals --
+		 * Wraith = Power 20, Stamina 200, Size 6, Stealth 100, and Health 150 -- Looks like a horrifying shadow, near invisible, has no allies -- 
+		 * Pinkey Slimey = Power 5, Stamina 20, Size 2, Stealth 10, and Health 20 -- Is A Miny Boss --
+		 * Slime = Power 6, Stamina 5, Size 4, Stealth 8, and Health 5
+		 * Pikachu = Power 1, Stamina 1, Size 1, Stealth 1, and Health 1 -- Upon death says "I WAS ONLY IN THIS GAME BECAUSE I WAS SO POPULAR!!!" --
+		 * Otachi Kaiju = Power 100, Stamina 50, Size 200, Stealth 0, and Health 200 -- Is A Boss --
+		 * Zombie = Power 5, Stamina 5, Size 5, Stealth 1, and Health 10
+		 * Colossal Scorpion = Power 20, Stamina 10, Size 30, Stealth 15, and Health 50 -- Is A Boss-
+		 * Baby Colossal Scorpion = Power 10, Stamina 10, Size 7, Stealth 20, and Health 40 -- Is an easter egg that can grow into the Colossal Scorpion --
+		 * Angry Noob = Power 10, Stamina 10, Size 5, Stealth 0, and Health 1
+		 * Huge Spider = Power 20, Stamina 20, Size 30, Stealth 10, and Health 45
+		 * CHARLIE = Power 10000, Stamina 1, Size 4.9, Stealth 0, and Health 1500 -- Is A Secret Boss --
+		 * KEEGAN = Power 10000, Stamina 10, Size 5, Stealth 5, and Health 1500 -- Is A Secret Boss --
+		 * Wall = Power 0, Stamina 0, Size 50, Stealth 0, and Health 50
+		 * Dragon = Power 40, Stamina 20, Size 50, Stealth 2, and Health 60 -- Is A Boss --
+		 * Evil Human = Power 7, Stamina 10, Size 5, Stealth 10, and Health 20
+		 * Alien Queen = Power 30, Stamina 20, Size 16, Stealth 15, and Health 100 -- Is A Boss --
+		 * Alien = Power 10, Stamina 20, Size 7, Stealth 20, and Health 60
+		 * Noob = Power 1, Stamina 1, Size 5, Stealth 1, and Health 1
+		 * Enderman = Power 10, Stamina 20, Size 7, Stealth 15, and Health 30
+		 * Precursor = Power 13, Stamina 20, Size 6, Stealth 10, and Health 20
+		 * Hydra = Power 24, Stamina 15, Size 10, Stealth 10, and Health 180 -- Is A Boss --
+		 * Godzilla = Power 80, Stamina 40, Size 200, Stealth 0, and Health 180 -- Is A Boss --
+		 * Johny = Power 30, Stamina 5, Size 5, Stealth 10, and Health 70 -- Is A Boss --
+		 * Skeleton = Power 5, Stamina 20, Size 5, Stealth 2, and Health 10
+		 * Stephanie = Power 30, Stamina 5, Size 5, Stealth 10, and Health 70 -- Is A Boss --
+		 * Leatherback Kaiju = Power 100, Stamina 50, Size 200, Stealth 0, and Health 190 -- Is A Boss --
+		 * Boss Goblin = Power 10, Stamina 20, Size 4, Stealth 20, and Health 50 -- Is A Boss --
+		 * Goblin = Power 5, Stamina 15, Size 3, Stealth 30, and Health 15
+		 * Evil AI = Power 6, Stamina 10, Size 5, Stealth 5, and Health 20 -- Is A Miny Boss --
+		 * Slattern Kaiju = Power 150, Stamina 60, Size 300, Stealth 0, and Health 300 -- Is The Final Boss --
+		 * Slattern Kaiju lvl 2 = Power 200, Stamina 100, Size 350, Stealth -10, and Health 400 -- Is The Second Stage Of The Final Boss --
+		 * Slattern Kaiju lvl 3 = Power 200, Stamina 200, Size 400, Stealth -20, and Health 450 -- Is The Third Stage Of The Final Boss --
+		 * Slattern Kaiju lvl 4 = Power 250, Stamina 150, Size 600, Stealth -50, and Health 600 -- Is The Fourth Stage Of The Final Boss --
+		 * ULTIMATE SLATTERN (lvl 5) = Power 400, Stamina  300, Size 1000, Stealth - 100, and Health 1000 -- Is The Final Stage Of The Final Boss --
+		 * Gateway = Power 10000000, Stamina 0, Size 10000000, and Health 10000000 -- Can only be destroyed by the Gateway Key --
+		 */
+		
+	}
+	
+	public int power() {
+		return Power;
+	}
+	public int stamina() {
+		return Stamina;
+	}
+	public int size() {
+		return Size;
+	}
+	public int stealth() {
+		return Stealth;
+	}
+	public int health() {
+		return Health;
+	}
+	
+	public void decreaseHealth(int decreaseHealth) {
+		
+		
+		
+	}
+	
+}

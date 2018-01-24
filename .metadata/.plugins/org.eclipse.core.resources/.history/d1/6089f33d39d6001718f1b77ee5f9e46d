@@ -1,0 +1,24 @@
+package chsarlietef;
+
+public class KeeganFibonacci {
+
+	public static void main(String[] args) {
+		
+		int x=0;
+		int y=0;
+		int z=0;
+		
+		for(int i = 0;i<100;i++) {
+		
+			z=x+y;
+			
+			x=y;
+			y=z;
+			System.out.println(z);
+			
+		}
+		
+		
+	}
+	
+}

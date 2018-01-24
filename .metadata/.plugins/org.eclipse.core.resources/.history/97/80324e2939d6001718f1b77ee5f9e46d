@@ -1,0 +1,36 @@
+package chsarlietef;
+
+public class KeeganFibonacci {
+
+	public static void main(String[] args) {
+		
+		int x=0;
+		int y=x;
+		
+		System.out.println("Let's do Fibonacci numbers, we'll start at 0 and then go up.");
+		
+		System.out.println("0");
+		
+		x++;
+	
+		System.out.println(x);
+		
+		System.out.println(x+y);
+		
+		y=x;
+		
+		System.out.println(x+y);
+			
+		x=x+y;
+		y=x+y-x;
+		
+		System.out.println(x+y);
+		
+		x=x+y;
+		y=x-1;
+		
+		System.out.println(x+y);
+		
+	}
+	
+}
